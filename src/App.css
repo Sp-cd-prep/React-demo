@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(222, 185, 185);
+}
+
+.App {
+  text-align: center;
+  color: black
+}
+
+.react{
+  font-size: larger;
+  color: blue;
+  text-shadow: 5px 5px 10px gray;
+}
+.navBar{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: blue;
+  font-size: 30px;
+}
+
+.navBar a{
+  text-decoration: none;
+  color: white;
+}
+
+.navBar a:hover{
+  color: yellow;
+}
+.navBar .active{
+  background-color:chartreuse;
+}
+
+
+
